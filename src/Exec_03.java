@@ -17,5 +17,10 @@ public class Exec_03
         {
             System.out.println(obj.getClass().getName());
         }
+        //Using finally
+        finally {
+            System.out.println("Inside finally Block");
+        }
+        System.out.println("End of the main method");
     }
 }
